@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EB1250924310F7C0010C93E /* RecordSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1250824310F7C0010C93E /* RecordSettings.swift */; };
+		3EB1250A24310F7C0010C93E /* RecordSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1250824310F7C0010C93E /* RecordSettings.swift */; };
+		3EB1250B24310F7C0010C93E /* RecordSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1250824310F7C0010C93E /* RecordSettings.swift */; };
+		3EB1250D24311E220010C93E /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1250C24311E220010C93E /* StorageManager.swift */; };
+		3EB1250E24311E220010C93E /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1250C24311E220010C93E /* StorageManager.swift */; };
+		3EB1250F24311E220010C93E /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1250C24311E220010C93E /* StorageManager.swift */; };
 		3EFCB59E242E998900172B73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB59D242E998900172B73 /* AppDelegate.swift */; };
 		3EFCB5A0242E998900172B73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB59F242E998900172B73 /* SceneDelegate.swift */; };
 		3EFCB5A2242E998900172B73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB5A1242E998900172B73 /* ContentView.swift */; };
@@ -15,6 +21,30 @@
 		3EFCB5AA242E998D00172B73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EFCB5A8242E998D00172B73 /* LaunchScreen.storyboard */; };
 		3EFCB5B5242E998E00172B73 /* AlarmSoundAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB5B4242E998E00172B73 /* AlarmSoundAppTests.swift */; };
 		3EFCB5C0242E998E00172B73 /* AlarmSoundAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB5BF242E998E00172B73 /* AlarmSoundAppUITests.swift */; };
+		3EFCB5CE242F74F900172B73 /* MinutePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB5CD242F74F900172B73 /* MinutePickerView.swift */; };
+		3EFCB5CF242F74F900172B73 /* MinutePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB5CD242F74F900172B73 /* MinutePickerView.swift */; };
+		3EFCB5D0242F74F900172B73 /* MinutePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB5CD242F74F900172B73 /* MinutePickerView.swift */; };
+		3EFCB6202430AC0200172B73 /* AlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB61F2430AC0200172B73 /* AlarmViewModel.swift */; };
+		3EFCB6212430AC0200172B73 /* AlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB61F2430AC0200172B73 /* AlarmViewModel.swift */; };
+		3EFCB6222430AC0200172B73 /* AlarmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB61F2430AC0200172B73 /* AlarmViewModel.swift */; };
+		3EFCB6242430B08B00172B73 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB6232430B08B00172B73 /* SoundManager.swift */; };
+		3EFCB6252430B08B00172B73 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB6232430B08B00172B73 /* SoundManager.swift */; };
+		3EFCB6262430B08B00172B73 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB6232430B08B00172B73 /* SoundManager.swift */; };
+		3EFCB6282430B39B00172B73 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB6272430B39B00172B73 /* AudioPlayer.swift */; };
+		3EFCB6292430B39B00172B73 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB6272430B39B00172B73 /* AudioPlayer.swift */; };
+		3EFCB62A2430B39B00172B73 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB6272430B39B00172B73 /* AudioPlayer.swift */; };
+		3EFCB62C2430B3A700172B73 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB62B2430B3A700172B73 /* AudioRecorder.swift */; };
+		3EFCB62D2430B3A700172B73 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB62B2430B3A700172B73 /* AudioRecorder.swift */; };
+		3EFCB62E2430B3A700172B73 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB62B2430B3A700172B73 /* AudioRecorder.swift */; };
+		3EFCB63A2430BEED00172B73 /* alarm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3EFCB6382430BEED00172B73 /* alarm.m4a */; };
+		3EFCB63B2430BEED00172B73 /* alarm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3EFCB6382430BEED00172B73 /* alarm.m4a */; };
+		3EFCB63C2430BEED00172B73 /* alarm.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3EFCB6382430BEED00172B73 /* alarm.m4a */; };
+		3EFCB63D2430BEED00172B73 /* nature.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3EFCB6392430BEED00172B73 /* nature.m4a */; };
+		3EFCB63E2430BEED00172B73 /* nature.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3EFCB6392430BEED00172B73 /* nature.m4a */; };
+		3EFCB63F2430BEED00172B73 /* nature.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3EFCB6392430BEED00172B73 /* nature.m4a */; };
+		3EFCB6412430ED2700172B73 /* PathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB6402430ED2600172B73 /* PathManager.swift */; };
+		3EFCB6422430ED2700172B73 /* PathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB6402430ED2600172B73 /* PathManager.swift */; };
+		3EFCB6432430ED2700172B73 /* PathManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB6402430ED2600172B73 /* PathManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EB1250824310F7C0010C93E /* RecordSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSettings.swift; sourceTree = "<group>"; };
+		3EB1250C24311E220010C93E /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		3EFCB59A242E998900172B73 /* AlarmSoundApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmSoundApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFCB59D242E998900172B73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EFCB59F242E998900172B73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +81,14 @@
 		3EFCB5BB242E998E00172B73 /* AlarmSoundAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmSoundAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFCB5BF242E998E00172B73 /* AlarmSoundAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmSoundAppUITests.swift; sourceTree = "<group>"; };
 		3EFCB5C1242E998E00172B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EFCB5CD242F74F900172B73 /* MinutePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinutePickerView.swift; sourceTree = "<group>"; };
+		3EFCB61F2430AC0200172B73 /* AlarmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewModel.swift; sourceTree = "<group>"; };
+		3EFCB6232430B08B00172B73 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		3EFCB6272430B39B00172B73 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		3EFCB62B2430B3A700172B73 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		3EFCB6382430BEED00172B73 /* alarm.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = alarm.m4a; sourceTree = "<group>"; };
+		3EFCB6392430BEED00172B73 /* nature.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = nature.m4a; sourceTree = "<group>"; };
+		3EFCB6402430ED2600172B73 /* PathManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +139,18 @@
 		3EFCB59C242E998900172B73 /* AlarmSoundApp */ = {
 			isa = PBXGroup;
 			children = (
+				3EFCB6372430BEB600172B73 /* Resourses */,
 				3EFCB59D242E998900172B73 /* AppDelegate.swift */,
 				3EFCB59F242E998900172B73 /* SceneDelegate.swift */,
 				3EFCB5A1242E998900172B73 /* ContentView.swift */,
+				3EFCB5CD242F74F900172B73 /* MinutePickerView.swift */,
+				3EFCB61F2430AC0200172B73 /* AlarmViewModel.swift */,
+				3EFCB6232430B08B00172B73 /* SoundManager.swift */,
+				3EFCB6402430ED2600172B73 /* PathManager.swift */,
+				3EFCB6272430B39B00172B73 /* AudioPlayer.swift */,
+				3EB1250824310F7C0010C93E /* RecordSettings.swift */,
+				3EFCB62B2430B3A700172B73 /* AudioRecorder.swift */,
+				3EB1250C24311E220010C93E /* StorageManager.swift */,
 				3EFCB5A3242E998D00172B73 /* Assets.xcassets */,
 				3EFCB5A8242E998D00172B73 /* LaunchScreen.storyboard */,
 				3EFCB5AB242E998D00172B73 /* Info.plist */,
@@ -134,6 +183,15 @@
 				3EFCB5C1242E998E00172B73 /* Info.plist */,
 			);
 			path = AlarmSoundAppUITests;
+			sourceTree = "<group>";
+		};
+		3EFCB6372430BEB600172B73 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				3EFCB6382430BEED00172B73 /* alarm.m4a */,
+				3EFCB6392430BEED00172B73 /* nature.m4a */,
+			);
+			path = Resourses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +256,9 @@
 		3EFCB592242E998900172B73 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Nik Cane";
@@ -240,8 +301,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFCB63D2430BEED00172B73 /* nature.m4a in Resources */,
 				3EFCB5AA242E998D00172B73 /* LaunchScreen.storyboard in Resources */,
 				3EFCB5A7242E998D00172B73 /* Preview Assets.xcassets in Resources */,
+				3EFCB63A2430BEED00172B73 /* alarm.m4a in Resources */,
 				3EFCB5A4242E998D00172B73 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,6 +313,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFCB63B2430BEED00172B73 /* alarm.m4a in Resources */,
+				3EFCB63E2430BEED00172B73 /* nature.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +322,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFCB63C2430BEED00172B73 /* alarm.m4a in Resources */,
+				3EFCB63F2430BEED00172B73 /* nature.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +334,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFCB5CE242F74F900172B73 /* MinutePickerView.swift in Sources */,
 				3EFCB59E242E998900172B73 /* AppDelegate.swift in Sources */,
+				3EB1250D24311E220010C93E /* StorageManager.swift in Sources */,
 				3EFCB5A0242E998900172B73 /* SceneDelegate.swift in Sources */,
 				3EFCB5A2242E998900172B73 /* ContentView.swift in Sources */,
+				3EFCB6202430AC0200172B73 /* AlarmViewModel.swift in Sources */,
+				3EFCB6242430B08B00172B73 /* SoundManager.swift in Sources */,
+				3EFCB6412430ED2700172B73 /* PathManager.swift in Sources */,
+				3EFCB62C2430B3A700172B73 /* AudioRecorder.swift in Sources */,
+				3EFCB6282430B39B00172B73 /* AudioPlayer.swift in Sources */,
+				3EB1250924310F7C0010C93E /* RecordSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +352,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFCB62D2430B3A700172B73 /* AudioRecorder.swift in Sources */,
+				3EFCB5CF242F74F900172B73 /* MinutePickerView.swift in Sources */,
+				3EFCB6252430B08B00172B73 /* SoundManager.swift in Sources */,
+				3EB1250E24311E220010C93E /* StorageManager.swift in Sources */,
+				3EFCB6422430ED2700172B73 /* PathManager.swift in Sources */,
+				3EFCB6292430B39B00172B73 /* AudioPlayer.swift in Sources */,
+				3EFCB6212430AC0200172B73 /* AlarmViewModel.swift in Sources */,
 				3EFCB5B5242E998E00172B73 /* AlarmSoundAppTests.swift in Sources */,
+				3EB1250A24310F7C0010C93E /* RecordSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +368,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EFCB62E2430B3A700172B73 /* AudioRecorder.swift in Sources */,
+				3EFCB5D0242F74F900172B73 /* MinutePickerView.swift in Sources */,
+				3EFCB6262430B08B00172B73 /* SoundManager.swift in Sources */,
+				3EB1250F24311E220010C93E /* StorageManager.swift in Sources */,
+				3EFCB6432430ED2700172B73 /* PathManager.swift in Sources */,
+				3EFCB62A2430B39B00172B73 /* AudioPlayer.swift in Sources */,
+				3EFCB6222430AC0200172B73 /* AlarmViewModel.swift in Sources */,
 				3EFCB5C0242E998E00172B73 /* AlarmSoundAppUITests.swift in Sources */,
+				3EB1250B24310F7C0010C93E /* RecordSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
