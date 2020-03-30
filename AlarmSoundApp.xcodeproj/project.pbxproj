@@ -13,6 +13,9 @@
 		3EB1250D24311E220010C93E /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1250C24311E220010C93E /* StorageManager.swift */; };
 		3EB1250E24311E220010C93E /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1250C24311E220010C93E /* StorageManager.swift */; };
 		3EB1250F24311E220010C93E /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB1250C24311E220010C93E /* StorageManager.swift */; };
+		3EB125112432007F0010C93E /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB125102432007F0010C93E /* DatePickerView.swift */; };
+		3EB125122432007F0010C93E /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB125102432007F0010C93E /* DatePickerView.swift */; };
+		3EB125132432007F0010C93E /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB125102432007F0010C93E /* DatePickerView.swift */; };
 		3EFCB59E242E998900172B73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB59D242E998900172B73 /* AppDelegate.swift */; };
 		3EFCB5A0242E998900172B73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB59F242E998900172B73 /* SceneDelegate.swift */; };
 		3EFCB5A2242E998900172B73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCB5A1242E998900172B73 /* ContentView.swift */; };
@@ -67,6 +70,7 @@
 /* Begin PBXFileReference section */
 		3EB1250824310F7C0010C93E /* RecordSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSettings.swift; sourceTree = "<group>"; };
 		3EB1250C24311E220010C93E /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		3EB125102432007F0010C93E /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 		3EFCB59A242E998900172B73 /* AlarmSoundApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmSoundApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFCB59D242E998900172B73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EFCB59F242E998900172B73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -144,6 +148,7 @@
 				3EFCB59F242E998900172B73 /* SceneDelegate.swift */,
 				3EFCB5A1242E998900172B73 /* ContentView.swift */,
 				3EFCB5CD242F74F900172B73 /* MinutePickerView.swift */,
+				3EB125102432007F0010C93E /* DatePickerView.swift */,
 				3EFCB61F2430AC0200172B73 /* AlarmViewModel.swift */,
 				3EFCB6232430B08B00172B73 /* SoundManager.swift */,
 				3EFCB6402430ED2600172B73 /* PathManager.swift */,
@@ -340,6 +345,7 @@
 				3EFCB5A0242E998900172B73 /* SceneDelegate.swift in Sources */,
 				3EFCB5A2242E998900172B73 /* ContentView.swift in Sources */,
 				3EFCB6202430AC0200172B73 /* AlarmViewModel.swift in Sources */,
+				3EB125112432007F0010C93E /* DatePickerView.swift in Sources */,
 				3EFCB6242430B08B00172B73 /* SoundManager.swift in Sources */,
 				3EFCB6412430ED2700172B73 /* PathManager.swift in Sources */,
 				3EFCB62C2430B3A700172B73 /* AudioRecorder.swift in Sources */,
@@ -358,6 +364,7 @@
 				3EB1250E24311E220010C93E /* StorageManager.swift in Sources */,
 				3EFCB6422430ED2700172B73 /* PathManager.swift in Sources */,
 				3EFCB6292430B39B00172B73 /* AudioPlayer.swift in Sources */,
+				3EB125122432007F0010C93E /* DatePickerView.swift in Sources */,
 				3EFCB6212430AC0200172B73 /* AlarmViewModel.swift in Sources */,
 				3EFCB5B5242E998E00172B73 /* AlarmSoundAppTests.swift in Sources */,
 				3EB1250A24310F7C0010C93E /* RecordSettings.swift in Sources */,
@@ -374,6 +381,7 @@
 				3EB1250F24311E220010C93E /* StorageManager.swift in Sources */,
 				3EFCB6432430ED2700172B73 /* PathManager.swift in Sources */,
 				3EFCB62A2430B39B00172B73 /* AudioPlayer.swift in Sources */,
+				3EB125132432007F0010C93E /* DatePickerView.swift in Sources */,
 				3EFCB6222430AC0200172B73 /* AlarmViewModel.swift in Sources */,
 				3EFCB5C0242E998E00172B73 /* AlarmSoundAppUITests.swift in Sources */,
 				3EB1250B24310F7C0010C93E /* RecordSettings.swift in Sources */,
