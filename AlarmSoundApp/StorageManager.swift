@@ -9,7 +9,7 @@
 import UIKit
 import Combine
 
-class StorageManager<T>: ObservableObject {
+class StorageManager {
   static func store(list: [Any], as key: String) {
     DispatchQueue.global().async {
       UserDefaults.standard.set(list, forKey: key)

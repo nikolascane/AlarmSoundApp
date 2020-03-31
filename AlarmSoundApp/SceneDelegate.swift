@@ -21,9 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     // Create the SwiftUI view that provides the window contents.
     let viewModel = AlarmViewModel()
-    
-    let contentView = ContentView()
-      .environmentObject(viewModel)
+    let contentView = ContentView(viewModel: viewModel)
 
     // Use a UIHostingController as window root view controller.
     if let windowScene = scene as? UIWindowScene {

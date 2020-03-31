@@ -13,30 +13,45 @@ struct ContentView: View {
   @State private var showSleepTime: Bool = false
   @State private var showAlarmTime: Bool = false
   
-  @EnvironmentObject var viewModel: AlarmViewModel
+  @ObservedObject var viewModel: AlarmViewModel
 
   var body: some View {
     VStack {
       Text("\(self.viewModel.appState.rawValue)")
       Spacer()
-      Button("Set sleep time"){
+      Button("Set sleep time: \(self.viewModel.sleepTime) minutes"){
         self.showSleepTime = true
       }
       .sheet(isPresented: $showSleepTime, content: {
-        MinutePickerView(showSleepTime: self.$showSleepTime)
-          .environmentObject(self.viewModel)
+        MinutePickerView(viewModel: self.viewModel, showSleepTime: self.$showSleepTime)
       })
-      Button("Set alarm time") {
+      Button("Set alarm time: \(self.viewModel.alarmTime)") {
         self.showAlarmTime = true
       }
       .sheet(isPresented: self.$showAlarmTime, content: {
-        DatePickerView(showAlarmTime: self.$showAlarmTime)
-          .environmentObject(self.viewModel)
+        DatePickerView(viewModel: self.viewModel, showAlarmTime: self.$showAlarmTime)
       })
       .padding()
       Spacer()
       Button(self.viewModel.commandName){
-        self.viewModel.command()
+        self.viewModel.playbackCommand()
+      }
+      .alert(item: self.$viewModel.alarmError, content: { error in
+        Alert(title: Text(""),
+              message: Text(error.description),
+              dismissButton: .cancel({
+                self.viewModel.stopPlayRecordFlow()
+              }))
+      })
+      Spacer()
+      HStack {
+        Button(self.viewModel.abortButtonTitle){
+          self.viewModel.stopPlayRecordFlow()
+        }
+        Spacer()
+        Button(self.viewModel.muteButtonTitle){
+          self.viewModel.mute()
+        }
       }
       Spacer()
     }
@@ -45,6 +60,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+      ContentView(viewModel: AlarmViewModel())
     }
 }

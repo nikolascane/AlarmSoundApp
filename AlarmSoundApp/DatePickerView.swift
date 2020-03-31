@@ -9,12 +9,12 @@
 import SwiftUI
 
 struct DatePickerView: View {
-  @EnvironmentObject var viewModel: AlarmViewModel
+  @ObservedObject var viewModel: AlarmViewModel
   @Binding var showAlarmTime: Bool
   
   var body: some View {
     VStack {
-      Text("Select sleep time")
+      Text("Select alarm time")
         .padding()
       HStack {
         Spacer()
@@ -24,16 +24,17 @@ struct DatePickerView: View {
         .padding()
       }
       Spacer()
-      DatePicker(selection: self.$viewModel.alarmTime,
+      DatePicker(selection: self.$viewModel.alarmDate,
                 in: self.viewModel.alarmTimeRange,
                 displayedComponents: .hourAndMinute,
                 label: { Text("Max 1 \(self.viewModel.maxTimeRange.rawValue)") })
+      Spacer()
     }
   }
 }
 
 struct DatePickerView_Previews: PreviewProvider {
     static var previews: some View {
-      DatePickerView(showAlarmTime: .constant(true))
+      DatePickerView(viewModel: AlarmViewModel(), showAlarmTime: .constant(true))
     }
 }
